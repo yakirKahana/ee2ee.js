@@ -10,6 +10,20 @@
                     });
                 });
         }
+
+
+        generateSharedKey(othersPublicKey) {
+            let jwkOthersKey = JSON.parse(atob(othersPublicKey));
+            //import key
+            crypto.subtle.importKey('jwk', jwkOthersKey, { name: 'ECDH', namedCurve: 'P-521' }, true, []).then((imported) => {
+                //generate secrete from other's key
+                let params = { name: 'ECDH', public: imported };
+                let aes = { name: 'AES-GCM', length: 256 };
+                crypto.subtle.deriveKey(params, this.keys.privateKey, aes, false, ['encrypt', 'decrypt']).then(key => {
+                    this.sharedKey = key;
+                });
+            });
+        }
     }
 
 }());
