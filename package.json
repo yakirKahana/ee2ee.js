@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yakirKahana/jsECDH.git"
+    "url": "git+https://github.com/yakirKahana/jsE2EE.git"
   },
   "author": "",
   "license": "WTFPL",
   "bugs": {
-    "url": "https://github.com/yakirKahana/jsECDH/issues"
+    "url": "https://github.com/yakirKahana/jsE2EE/issues"
   },
-  "homepage": "https://github.com/yakirKahana/jsECDH#readme"
+  "homepage": "https://github.com/yakirKahana/jsE2EE#readme"
 }
