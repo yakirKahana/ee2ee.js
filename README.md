@@ -1,1 +1,1 @@
-# jsECDH
+# Easy end-to-end encryption

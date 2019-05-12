@@ -1,19 +1,19 @@
 {
-  "name": "js-end-2-end-encryption",
+  "name": "ee2eejs",
   "version": "1.0.0",
-  "description": "",
+  "description": "Easy end-to-end encryption",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yakirKahana/jsE2EE.git"
+    "url": "git+https://github.com/yakirKahana/ee2ee.js.git"
   },
   "author": "",
   "license": "WTFPL",
   "bugs": {
-    "url": "https://github.com/yakirKahana/jsE2EE/issues"
+    "url": "https://github.com/yakirKahana/ee2ee.js/issues"
   },
-  "homepage": "https://github.com/yakirKahana/jsE2EE#readme"
+  "homepage": "https://github.com/yakirKahana/ee2ee.js#readme"
 }
