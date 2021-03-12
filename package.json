@@ -1,6 +1,6 @@
 {
   "name": "ee2eejs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Easy end-to-end encryption",
   "main": "index.js",
   "scripts": {
